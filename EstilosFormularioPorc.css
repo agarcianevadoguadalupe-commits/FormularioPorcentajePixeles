@@ -1,0 +1,32 @@
+html {
+    background-color: #e8eef5;
+}
+
+body {
+    width: 80%;                  /* 1536 / 1920 (ancho de pantalla) = 0,80 => 80% */
+    margin: 0 auto;
+    background-color: #4e5762;
+}
+
+form {
+    width: 69.99%;               /* 1075 / 1536 (ancho del body) = 0,6999 => 69,99% */
+    margin: 0 auto;
+    padding: 2.99%;              /* 46 / 1536 (el padding en % se calcula sobre el ancho del body) = 0,0299 => 2,99% */
+    box-sizing: border-box;
+    border: 2px solid #2c5282;   /* el borde se deja en px: no conviene pasarlo a % */
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 17.98%;               /* 176 / 979 (ancho interior del form) = 0,1798 => 17,98% */
+}
+
+input[type="text"] {
+    width: 59.96%;               /* 587 / 979 (ancho interior del form) = 0,5996 => 59,96% */
+    padding: 1.53%;              /* 15 / 979 (ancho interior del form) = 0,0153 => 1,53% */
+}
